@@ -1,6 +1,6 @@
 # Notes from Jayaprakash
 
-[![Build Stats](https://github.com/whitead/dmol-book/workflows/deploy-book/badge.svg)](https://github.com/whitead/dmol-book/actions)
+[![Build Stats](https://github.com/osjayaprakash/notes/workflows/deploy-book/badge.svg)](https://github.com/osjayaprakash/notes/actions)
 
 
 ## Build Locally
