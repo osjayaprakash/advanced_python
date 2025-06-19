@@ -8,7 +8,7 @@
 To build the book locally you need to install [Jupyter Book](https://jupyterbook.org/en/stable/intro.html):
 
 ```zsh
-cd $HOME && python3 -m venv cs230
+cd $HOME && python3 -m venv cs230 && cd - 
 source ~/cs230/bin/activate
 python3 -m pip install -U jupyter-book
 ```
