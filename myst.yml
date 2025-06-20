@@ -28,6 +28,7 @@ site:
   template: book-theme
   title: Notes from JP
   thumbnail: https://www.jayaprakash.net/favicon.ico
+  baseurl: https://www.jayaprakash.net/notes/
   nav:
     - title: Home
       url: /index.html
