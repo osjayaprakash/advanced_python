@@ -1,4 +1,4 @@
-# Notes from Jayaprakash
+# Setup
 
 [![Build Stats](https://github.com/osjayaprakash/notes/workflows/deploy-book/badge.svg)](https://github.com/osjayaprakash/notes/actions)
 
@@ -6,6 +6,18 @@
 ## Build Locally
 
 To build the book locally you need to install [Jupyter Book](https://jupyterbook.org/en/stable/intro.html):
+
+Setup the github repo:
+```zsh
+gh auth login 
+gh repo clone osjayaprakash/notes
+```
+
+Install sublime text editor:
+```zsh
+brew install --cask sublime-text sublime-merge
+pip3 install notebook
+```
 
 ```zsh
 cd $HOME && python3 -m venv cs230 && cd - 
