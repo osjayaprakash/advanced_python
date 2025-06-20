@@ -1,0 +1,19 @@
+name: simpeg-user-tutorials
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.*
+  # Myst requirements
+  - nodejs>18
+  - mystmd
+  # Notebook requirements
+  - pandas
+  - matplotlib
+  - jupyter
+  - jupyterlab-myst
+  - nbconvert
+  - simpeg==0.24.*
+  - discretize==0.11.*
+  - choclo==0.3.*
+  - scikit-learn
+  - pymatsolver

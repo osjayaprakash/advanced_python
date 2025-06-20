@@ -1,0 +1,44 @@
+version: 1
+project:
+  title: Notes from JP
+  subject: Notes from JP
+  description: Notes from Jayaprakash Sundararaj
+  # license:
+  #   content: CC-BY-4.0
+  #   code: MIT
+  # github: https://github.com/osjayaprakash/notes
+  keywords:
+    - colabs
+    - machine-learning
+    - python
+    - book review
+
+  toc:
+    - file: index.md
+    - file: README.md
+    - file: colabs/sp500_stock_eda.ipynb
+
+site:
+  options:
+    folders: true
+    logo: https://www.jayaprakash.net/favicon.ico
+    favicon: https://www.jayaprakash.net/favicon.ico
+    logo_text: ""
+    analytics_google: G-XPGM45GRSM
+  template: book-theme
+  title: Notes from JP
+  thumbnail: https://www.jayaprakash.net/favicon.ico
+  nav:
+    - title: Home
+      url: /index.html
+    - title: Menu
+      children:
+        - title: Project website
+          url: https://simpeg.xyz
+        - title: Documentation
+          url: https://docs.simpeg.xyz
+
+  # actions:
+  #   - title: Learn More
+  #     url: https://mystmd.org/guide
+  domains: []
